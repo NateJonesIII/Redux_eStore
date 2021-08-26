@@ -1,4 +1,4 @@
-# ReactRedux_eStore
+Redux_eStore
 
 ## Description
 
