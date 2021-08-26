@@ -10,18 +10,11 @@
     "seed": "cd server && npm run seed",
     "build": "cd client && npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NateJonesIII/ReactRedux_eStore.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^5.1.0"
-  },
-  "bugs": {
-    "url": "https://github.com/NateJonesIII/ReactRedux_eStore/issues"
-  },
-  "homepage": "https://github.com/NateJonesIII/ReactRedux_eStore#readme"
+  }
+  
 }
