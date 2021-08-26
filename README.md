@@ -2,7 +2,7 @@
 
 ## Description
 
-An ecommerde store built using r
+An ecommerde store built using apollo server, graphql
 
 ## Table of contents
 
