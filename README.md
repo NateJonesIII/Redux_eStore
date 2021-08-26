@@ -20,7 +20,7 @@ An ecommerde store built using r
 
 ## Installation
 
-- Utilize Node.js, MongoDb, Mongoose
+- Utilize Node.js, MongoDb, Mongoose, Apollo-server
 
 ## Usage
 
