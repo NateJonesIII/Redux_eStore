@@ -40,6 +40,12 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+.env
+.DS_Store
+schema.sql
+connection 
+connection.js
+schema
 
 # TypeScript v1 declaration files
 typings/
