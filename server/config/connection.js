@@ -1,6 +1,6 @@
 //Dependencies 
 const mongoose = require('mongoose');
-//Add to Atlas
+//Add to Atlas and connect to cloud DB
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/mernshopping', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
