@@ -12,7 +12,7 @@ An ecommerde store built using apollo server, graphql
 
 [Contributing](#contributing)
 
-[Tests](#tests)
+[Screenshots](#screenshots)
 
 [License](#license)
 
@@ -30,7 +30,7 @@ An ecommerde store built using apollo server, graphql
 
 - Nate Jones
 
-## Tests
+## Screenshots
 
 -
 
