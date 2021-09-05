@@ -16,15 +16,10 @@ import {
   TOGGLE_CART,
 } from './actions';
 
-// TODO: To get a better understand of how a reducer works - add comments to the various actions in the reducer
 export const reducer = (state, action) => {
   switch (action.type) {
 
-    // TODO: Add a comment describing the functionality of the UPDATE_PRODUCTS case
-    // Your comment here
-    // copy states
-    // replace products with the contents of action.products
-    //fully replaces what we have in the state with action.products gives us
+    
     case UPDATE_PRODUCTS:
       return {
         // spread syntax
@@ -46,10 +41,6 @@ export const reducer = (state, action) => {
       };
 
      // check to see if ID is === to the product id
-     // if what we set in matches the current product we have in the cart
-     // we use map in this instance , we can't directly update the state
-     // we need to send it a new value to replace the state
-     // map function always retunrs to us the NEW modified array
     case UPDATE_CART_QUANTITY:
       return {
         ...state,
@@ -64,11 +55,6 @@ export const reducer = (state, action) => {
 
     case REMOVE_FROM_CART:
       // filter returns a new array
-      // we update cartopen to be === to new.state.length is greater than zero
-      // if we remove an item from the cart
-      // length of the item is zero
-      // we update the cart to a new state
-      //
       let newState = state.cart.filter((product) => {
         return product._id !== action._id;
       });
@@ -104,7 +90,6 @@ export const reducer = (state, action) => {
         currentCategory: action.currentCategory,
       };
 
-    // we leave default base case here 
     default:
       return state;
   }
@@ -113,3 +98,5 @@ export const reducer = (state, action) => {
 export function useProductReducer(initialState) {
   return useReducer(reducer, initialState);
 }
+
+
