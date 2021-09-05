@@ -32,7 +32,8 @@ An ecommerde store built using apollo server, graphql
 
 ## Screenshots
 
--
+- <img width="500" alt="Tag" src="https://github.com/NateJonesIII/Redux_eStore/blob/main/assets/Home.PNG?raw=true">
+- <img width="500" alt="Tag" src="https://github.com/NateJonesIII/Redux_eStore/blob/main/assets/select.PNG?raw=true">
 
 ## License
 
