@@ -2,7 +2,7 @@
 
 ## Description
 
-An ecommerde store built using apollo server, graphql
+An ecommerce store built using apollo server, graphql
 
 ## Table of contents
 
